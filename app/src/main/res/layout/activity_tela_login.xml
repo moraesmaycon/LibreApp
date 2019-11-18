@@ -26,7 +26,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/senhaID"
+        app:layout_constraintTop_toBottomOf="@+id/senhaDigitada"
         app:layout_constraintVertical_bias="0.2" />
 
     <Button
@@ -92,7 +92,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/emailID"
+        android:id="@+id/emailDigitado"
         android:layout_width="265dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
@@ -114,7 +114,7 @@
         android:autofillHints="" />
 
     <EditText
-        android:id="@+id/senhaID"
+        android:id="@+id/senhaDigitada"
         android:layout_width="265dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
@@ -132,7 +132,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.584"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/emailID"
+        app:layout_constraintTop_toBottomOf="@+id/emailDigitado"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="OnClick"
         tools:targetApi="o" />

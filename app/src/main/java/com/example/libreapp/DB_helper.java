@@ -14,7 +14,7 @@ import java.net.URL;
 
 public class DB_helper {
 
-    private static String WEB_SERVICE_URL = "http://192.168.25.12/webservice/";
+    private static String WEB_SERVICE_URL = "http://10.21.80.155/webservice/";
 
     private static void checkThreadPolicy() {
         int SDK_VERSION = Build.VERSION.SDK_INT;
@@ -27,7 +27,7 @@ public class DB_helper {
 
     public static int insertIntoUsuario(String user, String email, String nome, String birthdate, String senha) throws IOException {
         checkThreadPolicy();
-        String values = "$user=" + user + "$email=" + email + "nome+" + nome + "$birthdate=" + birthdate + "$senha=" + senha;
+        String values = "user=" + user + "&email=" + email + "&nome=" + nome + "&birthdate=" + birthdate + "&senha=" + senha;
         URL url = new URL(WEB_SERVICE_URL + "ws_insert/ws_insert_usuarios.php?" + values);
         HttpURLConnection conexao = (HttpURLConnection) url.openConnection();
         BufferedReader br = new BufferedReader((new InputStreamReader(conexao.getInputStream())));
