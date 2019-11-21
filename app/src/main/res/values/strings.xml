@@ -14,4 +14,7 @@
     <string name="nome">NOME:</string>
     <string name="usu_rio">USUÁRIO</string>
     <string name="data_de_nascimento">DATA DE NASCIMENTO</string>
+    <string name="alterar_dados">Alterar dados</string>
+    <string name="deletar_conta">Deletar conta</string>
+    <string name="sair">Sair</string>
 </resources>

@@ -28,31 +28,6 @@ public class telaLogin extends AppCompatActivity {
         startActivity(intentBack);
     }
 
-    public void entrarFalso(View v) {
-
-        EditText email = (EditText) findViewById(R.id.emailDigitado);
-        String emailText = email.getText().toString();
-        EditText senha = (EditText) findViewById(R.id.senhaDigitada);
-        String senhaText = senha.getText().toString();
-
-        if (emailText.equals("easteregg@gmail.com") && senhaText.equals("password")) {
-
-            Intent entrarIntent = new Intent(getApplicationContext(), depoisVejo4.class);
-            startActivity(entrarIntent);
-
-        } else {
-
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setTitle("ERRO");
-            builder.setMessage("Usuário não cadastrado.");
-            builder.setPositiveButton("OK" , null);
-            builder.create().show();
-
-        }
-
-    }
-
-
     public void confereLogin(View v) throws IOException, JSONException {
         EditText campoEmail = findViewById(R.id.emailDigitado);
         String emailDigitado = campoEmail.getText().toString();

@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/entrar2ID"
+        android:id="@+id/cadastrarID"
         android:layout_width="243dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
@@ -29,7 +29,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/entrar2ID2"
+        android:id="@+id/entrarID"
         android:layout_width="243dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"

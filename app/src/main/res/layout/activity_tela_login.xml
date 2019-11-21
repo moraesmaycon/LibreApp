@@ -7,7 +7,7 @@
     tools:context=".telaLogin">
 
     <Button
-        android:id="@+id/entrar2ID"
+        android:id="@+id/cadastrarID"
         android:layout_width="243dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
